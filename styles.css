@@ -1,2 +1,18 @@
 
 /* Your CSS Code here. */
+.holder
+{
+	background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.holder .item
+{
+	width: 100px;
+    background-color: orangered;
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
